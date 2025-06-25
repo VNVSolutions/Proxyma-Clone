@@ -2,10 +2,10 @@
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: 0 15px;
     box-sizing: border-box;
     outline: 1px solid tomato;
+    max-width: 1300px;
 }
 
 /* 🟢 Мобільні пристрої (до 640px) — 100% ширини */
@@ -23,8 +23,8 @@
 }
 
 /* 🟣 Десктопи (до 1280px) */
-@media (min-width: 1280px) {
+@media (min-width: 1275px) {
     .container {
-        max-width: 1280px;
+        max-width: 1300px;
     }
 }

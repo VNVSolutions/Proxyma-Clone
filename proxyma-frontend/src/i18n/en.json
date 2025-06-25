@@ -1,4 +1,7 @@
 {
-  "welcome": "Welcome to Proxyma",
-  "start": "Start now"
+  "menuLink1": "Buy now",
+  "menuLink2": "Solutions",
+  "menuLink3": "Resources",
+  "menuLink4": "Blog",
+  "menuLink5": "Partners"
 }

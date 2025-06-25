@@ -1,4 +1,7 @@
 {
-  "welcome": "Добро пожаловать в Proxyma",
-  "start": "Начать сейчас"
+  "menuLink1": "Купить прокси",
+  "menuLink2": "Решения",
+  "menuLink3": "Ресурсы",
+  "menuLink4": "Блог",
+  "menuLink5": "Партнеры"
 }
