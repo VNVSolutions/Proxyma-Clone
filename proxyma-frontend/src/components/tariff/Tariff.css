@@ -1,0 +1,116 @@
+.tariff-section{
+    padding: 75px 0 90px;
+}
+
+.tariff__title{
+    font-size: 34px;
+    text-align: center;
+
+    font-family: Jost, sans-serif;
+    font-weight: 700;
+
+    margin-bottom: 30px;
+
+    color: #000;
+}
+
+.plans-swiper {
+    padding: 60px 20px;
+    overflow: hidden;
+}
+
+.plan-card {
+    background: #fff;
+    border-radius: 20px;
+    border: 2px dashed #d4eaf8;
+    padding: 24px 16px;
+    text-align: center;
+    position: relative;
+    min-height: 360px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease;
+}
+
+.plan-card:hover {
+    transform: translateY(-4px);
+}
+
+.plan-badge {
+    position: absolute;
+    top: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #fe3366;
+    color: #fff;
+    padding: 4px 12px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.plan-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #009ee0;
+    margin-bottom: 8px;
+}
+
+.plan-price {
+    font-size: 24px;
+    font-weight: 600;
+    color: #ff3366;
+    margin-bottom: 20px;
+}
+
+.plan-price small {
+    font-size: 14px;
+    color: #555;
+}
+
+.plan-data {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px 0;
+}
+
+.plan-data li {
+    background: #f0faff;
+    border-radius: 8px;
+    margin: 6px 0;
+    padding: 6px 12px;
+    font-size: 14px;
+}
+
+.plan-button {
+    background: #ff3366;
+    color: white;
+    font-weight: 700;
+    padding: 10px 24px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px 14px rgba(255, 51, 102, 0.3);
+}
+
+.plan-button:hover {
+    box-shadow: 0 6px 18px rgba(255, 51, 102, 0.4);
+}
+
+.plans-swiper .swiper-button-next:after,
+.plans-swiper .swiper-button-next ,
+.plans-swiper .swiper-button-prev:after,
+.plans-swiper .swiper-button-prev{
+    display: none;
+}
+
+.plans-swiper .swiper{
+    overflow: visible;
+}
+
+.plans-swiper .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal {
+    bottom: -40px;
+}
+
+.plans-swiper .swiper-pagination-bullet-active{
+    background-color: #ff3366;
+}

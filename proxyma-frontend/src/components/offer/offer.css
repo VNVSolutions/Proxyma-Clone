@@ -1,0 +1,92 @@
+.offerSection{
+    padding: 40px 0 90px;
+
+}
+
+.offer__title{
+    text-align: center;
+    font-family: Jost, sans-serif;
+    font-weight: 700;
+    font-size: 37px;
+    color: #000;
+    margin-bottom: 37px;
+}
+
+.offer__list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.offer__item{
+    position: relative;
+    padding: 20px 25px;
+    border-radius: 31px;
+    display: grid
+;
+    grid-template-columns: 92px 1fr;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 10px 20px;
+    color: #000;
+    background-color: #e9fbff;
+}
+
+.offer__item-icon{
+    width: 92px;
+    height: 92px;
+}
+
+.offer__item-title{
+    font-family: Jost, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.offer__item-text{
+    grid-column: span 2;
+    font-family: Circe, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.advantages__item--last{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+
+.offer-button-accent{
+    padding: 14px 5px;
+    border-radius: 9px;
+    -webkit-box-shadow: 0 5px 19px 0 rgba(254, 48, 89, .45);
+    box-shadow: 0 5px 19px #fe305973;
+    display: block;
+    max-width: 260px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 800;
+    color: #fff;
+    background-color: #fe3059;
+    -webkit-transition: background-color .3s ease-in-out, -webkit-box-shadow .3s ease-in-out;
+    transition: background-color .3s ease-in-out, -webkit-box-shadow .3s ease-in-out;
+    transition: box-shadow .3s ease-in-out, background-color .3s ease-in-out;
+    transition: box-shadow .3s ease-in-out, background-color .3s ease-in-out, -webkit-box-shadow .3s ease-in-out;
+}
+
+
+
