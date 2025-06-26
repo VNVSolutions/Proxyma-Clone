@@ -3,11 +3,25 @@ import logo from "../../../public/img/logo-header.svg"
 import {NavLink} from "react-router-dom";
 import {useTranslation} from "react-i18next";
 import eng from '../../../public/img/eng.svg'
+import {useEffect, useState} from "react";
 
 function Header() {
     const { t, i18n } = useTranslation();
 
-    return<header className="header">
+    const [isScrolled, setIsScrolled] = useState(false);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            const scrollY = window.scrollY || document.documentElement.scrollTop;
+            setIsScrolled(scrollY > 10); // або 50, як хочеш
+        };
+
+        window.addEventListener("scroll", handleScroll);
+        return () => window.removeEventListener("scroll", handleScroll);
+    }, []);
+
+
+    return<header  className={`header ${isScrolled ? 'header--scroll' : ''}`}>
         <Container className="header-container">
 
             <img width={190} src={logo} alt="logo"/>

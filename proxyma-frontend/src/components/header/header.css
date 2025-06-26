@@ -9,6 +9,14 @@
     transition: padding .3s ease-in-out, background-color .3s ease-in-out;
 }
 
+.header--scroll {
+    padding-top: 10px;
+    -webkit-box-shadow: 0 5px 15px -9px #121a2f;
+    box-shadow: 0 5px 15px -9px #121a2f;
+    background-color: #fffffff2;
+}
+
+
 .menuList{
     display: flex;
     gap: 8px;
