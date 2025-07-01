@@ -4,8 +4,12 @@ import { Navigation, Pagination } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
+import {useState} from "react";
+import {NavLink} from "react-router-dom";
 
 function Tariff() {
+
+    const [activeType, setActiveType] = useState('residential');
 
     const plans = [
         {
@@ -71,7 +75,22 @@ function Tariff() {
     return <section className="tariff-section section-blue">
         <Container>
             <h2 className="tariff__title">Select your proxy plan</h2>
-            <div className="plans-swiper">
+
+            <div className="tariff-type-switch">
+                <button
+                    className={`tariff-type-btn ${activeType === 'residential' ? 'active' : ''}`}
+                    onClick={() => setActiveType('residential')}
+                >
+                    Residential dynamic proxies
+                </button>
+                <button
+                    className={`tariff-type-btn ${activeType === 'isp' ? 'active' : ''}`}
+                    onClick={() => setActiveType('isp')}
+                >
+                    Unlimited proxies (ISP)
+                </button>
+            </div>
+            {activeType === 'residential' ? <div className="plans-swiper">
                 <Swiper
                     modules={[Pagination]}
                     spaceBetween={20}
@@ -103,7 +122,33 @@ function Tariff() {
                         </SwiperSlide>
                     ))}
                 </Swiper>
-            </div>
+            </div> : <>
+                <div className="tariff__feedback">
+                    <div className="tariff__feedback-inner">
+                        <div className="tariff__feedback--text">more than 1500 proxies</div>
+                        <NavLink href="#" className="tariff__feedback-link button-accent">contact us</NavLink>
+                    </div>
+                </div>
+
+                <div className="tariff__precedence">
+                    <div className="tariff__precedence-item">
+                        1 Gbps channel
+                    </div>
+                    <div className="tariff__precedence-item">
+                        more than 153 subnets
+                    </div>
+                    <div className="tariff__precedence-item">
+                        Anonymous
+                    </div>
+                    <div className="tariff__precedence-item">
+                        unlimited traffic
+                    </div>
+                    <div className="tariff__precedence-item">
+                        24/7 support
+                    </div>
+                </div>
+
+            </>}
         </Container>
     </section>
 }

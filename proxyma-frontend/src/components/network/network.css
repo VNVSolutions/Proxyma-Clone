@@ -1,0 +1,123 @@
+.network-section{
+    padding: 70px 0px 85px;
+
+    border-radius: 36px;
+    margin: 0px 70px;
+    background-color: rgb(224, 245, 255);
+}
+
+.network__title{
+    margin-bottom: 70px;
+
+    text-align: center;
+    font-family: Jost, sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+}
+
+
+
+
+.flags-grid{
+    display: grid
+;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 65px 10px;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.flag-card{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+
+    img{
+        margin: 0 auto 8px;
+        display: block;
+        width: 120px;
+        height: 70px;
+    }
+}
+
+.network__item-link{
+    display: block;
+    max-width: 220px;
+    width: 100%;
+    text-align: center;
+    outline-color: transparent;
+}
+
+
+.country-name{
+    margin-bottom: 7px;
+    font-weight: 700;
+    font-size: 24px;
+    color: #38313f;
+}
+
+.country-addresses{
+    font-weight: 700;
+    font-size: 18px;
+    color: #fe3059;
+}
+
+.network__item--msg{
+    padding: 8px;
+    border-radius: 22px;
+    max-width: 650px;
+    grid-row: span 2;
+    background-color: #fff;
+
+    grid-column: 4 / 7;
+}
+
+.network__msg-inner{
+    padding: 22px 25px;
+    border-radius: 18px;
+    border: 1px dashed #fe3059;
+    background-color: #fff;
+}
+
+.network__msg-title{
+    margin-bottom: 9px;
+    font-weight: 700;
+    font-size: 24px;
+    color: #fe3059;
+}
+
+.network__msg-text{
+    margin-bottom: 12px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #000;
+}
+
+.network__msg-button{
+    text-align: center;
+
+    padding: 14px 5px;
+    border-radius: 9px;
+    -webkit-box-shadow: 0 5px 19px 0 rgba(254, 48, 89, .45);
+    box-shadow: 0 5px 19px #fe305973;
+    display: block;
+    max-width: 260px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 800;
+    color: #fff;
+    background-color: #fe3059;
+    -webkit-transition: background-color .3s ease-in-out, -webkit-box-shadow .3s ease-in-out;
+    transition: background-color .3s ease-in-out, -webkit-box-shadow .3s ease-in-out;
+    transition: box-shadow .3s ease-in-out, background-color .3s ease-in-out;
+    transition: box-shadow .3s ease-in-out, background-color .3s ease-in-out, -webkit-box-shadow .3s ease-in-out;
+}

@@ -1,0 +1,81 @@
+.start__inner{
+    padding: 34px 44px 40px;
+    border-top-left-radius: 36px;
+    border-top-right-radius: 36px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 15px;
+    background-color: #fe3059;
+}
+
+.start__title{
+    margin-right: auto;
+    max-width: 655px;
+    font-family: Jost, sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    color: #fff;
+}
+
+.start__button--stroke{
+    margin-right: 24px;
+    border: 2px solid #fff;
+
+    text-align: center;
+
+    padding: 14px 5px;
+    border-radius: 9px;
+    -webkit-box-shadow: 0 5px 19px 0 rgba(254, 48, 89, .45);
+    box-shadow: 0 5px 19px #fe305973;
+    display: block;
+    max-width: 260px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 800;
+    color: #fff;
+    background-color: #fe3059;
+    -webkit-transition: background-color .3s ease-in-out, -webkit-box-shadow .3s ease-in-out;
+    transition: background-color .3s ease-in-out, -webkit-box-shadow .3s ease-in-out;
+    transition: box-shadow .3s ease-in-out, background-color .3s ease-in-out;
+    transition: box-shadow .3s ease-in-out, background-color .3s ease-in-out, -webkit-box-shadow .3s ease-in-out;
+
+}
+
+.start__button--stroke:hover,
+start__button--stroke:focus{
+    background-color: #fff;
+    color: #fe3059;
+}
+
+.start__button--white{
+    border: 2px solid #fff;
+    background-color: #fff;
+    color: #fe3059;
+
+    text-align: center;
+
+    padding: 14px 5px;
+    border-radius: 9px;
+    -webkit-box-shadow: 0 5px 19px 0 rgba(254, 48, 89, .45);
+    box-shadow: 0 5px 19px #fe305973;
+    display: block;
+    max-width: 260px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 800;
+    -webkit-transition: background-color .3s ease-in-out, -webkit-box-shadow .3s ease-in-out;
+    transition: background-color .3s ease-in-out, -webkit-box-shadow .3s ease-in-out;
+    transition: box-shadow .3s ease-in-out, background-color .3s ease-in-out;
+    transition: box-shadow .3s ease-in-out, background-color .3s ease-in-out, -webkit-box-shadow .3s ease-in-out;
+}
+
+.start__button--white:focus,
+.start__button--white:hover{
+    color: #fff;
+    background-color: #fe3059;
+}

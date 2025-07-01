@@ -6,6 +6,10 @@ import GeoSelector from "../components/geoSelector/GeoSelector.jsx";
 import Advantages from "../components/advantages/Advantages.jsx";
 import Offer from "../components/offer/Offer.jsx";
 import Tariff from "../components/tariff/Tariff.jsx";
+import Feedbacks from "../components/feedbacks/Feedbacks.jsx";
+import Network from "../components/network/Network.jsx";
+import Superpowers from "../components/superpowers/Superpowers.jsx";
+import Start from "../components/start/Start.jsx";
 
 
 function Home() {
@@ -18,6 +22,10 @@ function Home() {
         <Advantages/>
         <Offer/>
         <Tariff/>
+        <Feedbacks/>
+        <Network/>
+        <Superpowers/>
+        <Start/>
     </main>
 }
 
