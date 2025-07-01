@@ -1,0 +1,69 @@
+.superpowers-section{
+    padding: 75px 0 106px;
+}
+
+.skills__title{
+    margin-bottom: 42px;
+
+    text-align: center;
+    font-family: Jost, sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #000;
+}
+
+.superpowers-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.skills-item {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 25px 35px;
+    border-radius: 36px;
+    background: linear-gradient(128deg, #e0f5ff, #edf9ff 70%, #fff);
+    min-height: 180px;
+}
+
+.skills-icon {
+    width: 60px;
+    height: auto;
+}
+
+.skills-title {
+    font-weight: 700;
+    font-size: 16px;
+    color: #000;
+    margin-bottom: 8px;
+}
+
+.skills-text {
+    font-size: 14px;
+    color: #333;
+}
+
+.superpowers-box .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal{
+    top: -30px;
+    text-align: end;
+}
+
+.superpowers-box  .swiper{
+    overflow: visible;
+}
+
+.superpowers-box{
+    padding: 25px 0;
+    overflow: hidden;
+
+    .swiper-pagination-bullet{
+        width: 12px;
+        height: 12px;
+    }
+
+    .swiper-pagination-bullet-active{
+        background-color: #f6185c;
+    }
+}

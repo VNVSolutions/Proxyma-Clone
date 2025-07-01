@@ -10,6 +10,10 @@
 @import url('components/advantages/advantages.css');
 @import url('components/offer/offer.css');
 @import url('components/tariff/tariff.css');
+@import url('components/feedbacks/feedbacks.css');
+@import url('components/network/network.css');
+@import url('components/superpowers/superpowers.css');
+@import url('components/start/start.css');
 
 
 body{

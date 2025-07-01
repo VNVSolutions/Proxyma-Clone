@@ -1,0 +1,126 @@
+.reviews__title{
+    margin-bottom: 37px;
+    margin-top: 30px;
+    text-align: center;
+    font-family: Jost, sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #000;
+}
+
+.feedbacks-section {
+    padding: 80px 0;
+    position: relative;
+}
+
+.feedbacks-swiper-wrapper {
+    position: relative;
+}
+
+.feedback-card {
+    background: #fff;
+    border-radius: 16px;
+    border: 2px dashed #d4eaf8;
+    padding: 24px;
+    height: 100%;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+}
+
+.feedback-header {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 14px;
+}
+
+.feedback-avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.feedback-name {
+    font-weight: 700;
+    font-size: 16px;
+    margin: 0;
+    color: #000;
+}
+
+.feedback-date {
+    font-size: 14px;
+    color: #ff3366;
+    margin: 0;
+}
+
+.feedback-message {
+    font-size: 15px;
+    color: #444;
+    line-height: 1.5;
+}
+
+.feedbacks-prev,
+.feedbacks-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #ff3366;
+    color: white;
+    border: none;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(255, 51, 102, 0.3);
+    z-index: 10;
+}
+
+.feedbacks-prev {
+    left: -20px;
+}
+
+.feedbacks-next {
+    right: -20px;
+}
+
+.feedback-swipe-box .feedbacks-next{
+    right: -50px;
+
+    width: 40px;
+    height: 40px;
+
+    padding-top: 4px;
+
+    box-shadow: rgba(254, 48, 89, 0.45) 0px 5px 18.5px;
+    border-radius: 9px;
+    border: 2px solid rgb(254, 48, 89);
+
+    display: flex
+;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+
+.feedback-swipe-box .feedbacks-prev{
+    left: -50px;
+
+    width: 40px;
+    height: 40px;
+
+    padding-top: 4px;
+
+    box-shadow: rgba(254, 48, 89, 0.45) 0px 5px 18.5px;
+    border-radius: 9px;
+    border: 2px solid rgb(254, 48, 89);
+
+    display: flex
+;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
