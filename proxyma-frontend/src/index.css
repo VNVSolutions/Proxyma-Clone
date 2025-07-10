@@ -15,6 +15,10 @@
 @import url('components/superpowers/superpowers.css');
 @import url('components/start/start.css');
 @import url('components/footer/footer.css');
+@import url('components/about/about.css');
+@import url('components/pay/pay.css');
+@import url('components/refferal/refferal.css');
+@import url('components/buyOffer/buyOffer.css');
 
 
 body{
@@ -26,6 +30,6 @@ body{
 }
 
 
-
-
-
+.buyNowPage{
+    padding-top: 150px;
+}

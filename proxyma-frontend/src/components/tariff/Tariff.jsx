@@ -7,7 +7,7 @@ import 'swiper/css/pagination';
 import {useState} from "react";
 import {NavLink} from "react-router-dom";
 
-function Tariff() {
+function Tariff(props) {
 
     const [activeType, setActiveType] = useState('residential');
 
@@ -74,6 +74,10 @@ function Tariff() {
 
     return <section className="tariff-section section-blue">
         <Container>
+            {props.showTittle ? <>
+                <h3 className="tariff-aditional-title">Buy IP servers</h3>
+            </> : <>
+            </>}
             <h2 className="tariff__title">Select your proxy plan</h2>
 
             <div className="tariff-type-switch">
