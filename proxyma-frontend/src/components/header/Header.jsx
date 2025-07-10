@@ -27,7 +27,7 @@ function Header() {
             <img width={190} src={logo} alt="logo"/>
 
             <ul className="menuList">
-                <li className="menuItem">{t('menuLink1')}</li>
+                <li className="menuItem"> <NavLink to='/buy'>{t('menuLink1')}</NavLink> </li>
                 <li className="menuItem">{t('menuLink2')}</li>
                 <li className="menuItem">{t('menuLink3')}</li>
                 <li  className="menuItem">{t('menuLink4')}</li>

@@ -1,0 +1,49 @@
+.section-pay{
+    padding: 70px 0 80px;
+
+    border-radius: 36px;
+    margin: 0 70px;
+    background-color: #e0f5ff;
+}
+
+.pay__title{
+    margin-bottom: 50px;
+
+    text-align: center;
+    font-family: Jost, sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #000;
+}
+
+.pay__list{
+    margin-bottom: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.pay__item{
+    width: 150px;
+    height: 70px;
+}
+
+.pay__text{
+    font-weight: 400;
+    font-size: 20px;
+    color: #000;
+}
+
+.pay_text_link{
+    color: rgb(251, 58, 108);
+}
