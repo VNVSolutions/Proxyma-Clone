@@ -43,6 +43,8 @@
     gap: 8px;
     align-items: center;
 
+    position: relative;
+
     font-size: 15px;
     font-weight: 900;
     line-height: 19.2px;
@@ -53,6 +55,10 @@
     box-shadow: -16px 14px 40px #33649a40;
 
     margin-right: 15px;
+}
+
+.languageBox:hover{
+    cursor: pointer;
 }
 
 .languageText{
@@ -96,4 +102,104 @@
 
 .right-header-box{
     display: flex;
+}
+
+.languageDropdown {
+    position: absolute;
+    top: 45px;
+    left: 0;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    z-index: 99;
+}
+
+.languageOption {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+    padding: 4px 8px;
+    border-radius: 6px;
+}
+
+.languageOption:hover {
+    background: #f0f0f0;
+}
+
+
+.menuItem a {
+    position: relative;
+    text-decoration: none;
+    color: inherit;
+    padding-bottom: 5px; /* відступ для полоски */
+}
+
+.menuItem a::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #fe3059; /* бордовий */
+    transition: all 0.3s ease;
+    transform: translateX(-50%);
+}
+
+.menuItem a:hover::after {
+    width: 100%;
+}
+
+.menuItem a.active::after {
+    width: 100%;
+}
+
+.submenuWrapper {
+    position: relative;
+    cursor: pointer;
+}
+
+.menuLinkWithArrow {
+    display: inline-block;
+    padding: 3px 5px;
+}
+
+.submenu {
+    position: absolute;
+    top: 35px;
+    left: 0;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    min-width: 230px;
+    z-index: 99;
+}
+
+.submenuItem {
+    padding: 8px 16px;
+    transition: background 0.2s;
+}
+
+.submenuItem:hover {
+    background: #f0f0f0;
+}
+
+.submenuItem a {
+    color: #000;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.submenuItem a.active {
+    color: #fe3059; /* підсвічує активний */
+    font-weight: 600;
 }

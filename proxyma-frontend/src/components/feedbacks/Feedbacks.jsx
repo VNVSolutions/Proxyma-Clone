@@ -1,10 +1,10 @@
 import Container from "../utils/Container/Container.jsx";
-import {Swiper, SwiperSlide} from "swiper/react";
+import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "./Feedbacks.css";
-
+import { useTranslation } from "react-i18next";
 
 const feedbacks = [
     {
@@ -34,45 +34,49 @@ const feedbacks = [
 ];
 
 function Feedbacks() {
-    return <section className="feedbacks-section">
-        <Container>
-            <h2 className="title reviews__title">User feedback</h2>
+    const { t } = useTranslation();
 
-            <div className="feedbacks-swiper-wrapper feedback-swipe-box">
-                <Swiper
-                    modules={[Navigation]}
-                    navigation={{
-                        nextEl: ".feedbacks-next",
-                        prevEl: ".feedbacks-prev"
-                    }}
-                    spaceBetween={20}
-                    slidesPerView={1.2}
-                    breakpoints={{
-                        768: {slidesPerView: 2},
-                        1024: {slidesPerView: 3},
-                    }}
-                >
-                    {feedbacks.map((fb, index) => (
-                        <SwiperSlide  key={index}>
-                            <div className="feedback-card">
-                                <div className="feedback-header">
-                                    <img src={fb.avatar} alt={fb.name} className="feedback-avatar"/>
-                                    <div>
-                                        <h4 className="feedback-name">{fb.name}</h4>
-                                        <p className="feedback-date">{fb.date}</p>
+    return (
+        <section className="feedbacks-section">
+            <Container>
+                <h2 className="title reviews__title">{t("feedbacks.title")}</h2>
+
+                <div className="feedbacks-swiper-wrapper feedback-swipe-box">
+                    <Swiper
+                        modules={[Navigation]}
+                        navigation={{
+                            nextEl: ".feedbacks-next",
+                            prevEl: ".feedbacks-prev"
+                        }}
+                        spaceBetween={20}
+                        slidesPerView={1.2}
+                        breakpoints={{
+                            768: { slidesPerView: 2 },
+                            1024: { slidesPerView: 3 },
+                        }}
+                    >
+                        {feedbacks.map((fb, index) => (
+                            <SwiperSlide key={index}>
+                                <div className="feedback-card">
+                                    <div className="feedback-header">
+                                        <img src={fb.avatar} alt={fb.name} className="feedback-avatar" />
+                                        <div>
+                                            <h4 className="feedback-name">{fb.name}</h4>
+                                            <p className="feedback-date">{fb.date}</p>
+                                        </div>
                                     </div>
+                                    <p className="feedback-message">{fb.message}</p>
                                 </div>
-                                <p className="feedback-message">{fb.message}</p>
-                            </div>
-                        </SwiperSlide>
-                    ))}
-                </Swiper>
+                            </SwiperSlide>
+                        ))}
+                    </Swiper>
 
-                <button className="feedbacks-prev">&lt;</button>
-                <button className="feedbacks-next">&gt;</button>
-            </div>
-        </Container>
-    </section>
+                    <button className="feedbacks-prev">&lt;</button>
+                    <button className="feedbacks-next">&gt;</button>
+                </div>
+            </Container>
+        </section>
+    );
 }
 
 export default Feedbacks;

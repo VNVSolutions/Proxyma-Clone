@@ -11,7 +11,7 @@ import Start from "../components/start/Start.jsx";
 
 function BuyNow() {
 
-    return<div className="buyNowPage">
+    return<main className="buyNowPage">
         <Tariff showTittle={true}/>
         <About/>
         <Offer/>
@@ -20,7 +20,7 @@ function BuyNow() {
         <BuyOffer/>
         <Feedbacks/>
         <Start/>
-    </div>
+    </main>
 }
 
 export default BuyNow

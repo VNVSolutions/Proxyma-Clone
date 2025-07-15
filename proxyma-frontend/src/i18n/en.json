@@ -3,5 +3,486 @@
   "menuLink2": "Solutions",
   "menuLink3": "Resources",
   "menuLink4": "Blog",
-  "menuLink5": "Partners"
+  "menuLink5": "Partners",
+  "submenu": {
+    "dynamic": "Dynamic residential proxies",
+    "isp": "Unlimited proxies (ISP)",
+    "dataParsing": "Residential data parsing proxies",
+    "ecommerce": "Residential e-commerce proxies",
+    "crypto": "Residential proxies for crypto"
+  },
+  "header":{
+    "logIn": "Sign In",
+    "signUp": "Sign Up"
+  },
+  "hero": {
+    "title": "<span class='hero__title-blue'>PROXYMA</span> — 60+ million of unique IPs with <span class='hero__title-accent'>24/7</span> support",
+    "subtitle": "Reliable provider of dynamic and static proxies, maintaining the stability of your web activity.",
+    "list": {
+      "item1": "<span>60,000,000</span> proxies available for any GEO",
+      "item2": "Each IP belongs to a real person",
+      "item3": "Proxy uptime up to <span>99%</span>",
+      "item4": "Average support response time - <span>1 minute 24/7</span>"
+    },
+    "promo": {
+      "label": "500MB of stability for $2.5",
+      "title": "Register in <span>2 clicks</span> and get <span>500MB of proxy</span>",
+      "button": "Get 500MB"
+    }
+  },
+  "geo": {
+    "title": "One step to your stable surfing for <span class='price'>$2.5</span>",
+    "label": "Choose from one of 190 countries around the world.",
+    "placeholder": "Choose GEO",
+    "button": "Try Proxyma"
+  },
+  "advantages": {
+    "title": "Only high-quality proxies <br/> for all types of earning and research on the web.",
+    "list": {
+      "affiliate": {
+        "title": "AFFILIATE",
+        "text": "Zuckerberg approved"
+      },
+      "sneaker": {
+        "title": "SNEAKER",
+        "text": "Be the fastest in the raffle"
+      },
+      "reddit": {
+        "title": "REDDIT",
+        "text": "Don`t worry about account lifespan"
+      },
+      "social": {
+        "title": "SOCIAL",
+        "text": "Access to blocked resources"
+      },
+      "crypto": {
+        "title": "CRYPTO",
+        "text": "Every drop securely in your wallet"
+      },
+      "ecom": {
+        "title": "E-COM",
+        "text": "Study your competitors anonymously"
+      },
+      "dataParsing": {
+        "title": "DATA PARSING",
+        "text": "Continuous data collection"
+      },
+      "more": {
+        "text": "Discover all possibilities"
+      }
+    }
+  },
+  "offer": {
+    "title": "Forget about all problems with Proxyma",
+    "list": {
+      "stability": {
+        "title": "Stability of advertising accounts",
+        "text": "Your advertising accounts won`t fail at the worst possible moment",
+        "icon": "https://proxyma.io/images/pages/layout/index/advantages/advantages-1.png"
+      },
+      "parsing": {
+        "title": "Hassle-free data parsing",
+        "text": "What you start won`t crash halfway through the process",
+        "icon": "https://proxyma.io/images/pages/layout/index/advantages/advantages-2.png"
+      },
+      "drops": {
+        "title": "Long-term work on drops",
+        "text": "Abuse of drops from a single Proxyma account typically lasts up to a year",
+        "icon": "https://proxyma.io/images/pages/layout/index/advantages/advantages-3.png"
+      },
+      "fail": {
+        "title": "Yes, 1% of our proxies might fail…",
+        "text": "…But we are always available and replace proxies 24/7, typically within 30 minutes",
+        "icon": "https://proxyma.io/images/pages/layout/index/advantages/advantages-4.png"
+      },
+      "rotation": {
+        "title": "Rotation period for your security",
+        "text": "Upon request, we update the rotation period of your proxies down to the minute",
+        "icon": "https://proxyma.io/images/pages/layout/index/advantages/advantages-5.png"
+      },
+      "last": {
+        "title": "Reliable provider of your surfing",
+        "button": "Try for $2.5"
+      }
+    }
+  },
+  "tariff": {
+    "additionalTitle": "Buy IP servers",
+    "title": "Select your proxy plan",
+    "types": {
+      "residential": "Residential dynamic proxies",
+      "isp": "Unlimited proxies (ISP)"
+    },
+    "badges": {
+      "best": "BEST FOR START",
+      "effective": "MOST EFFECTIVE",
+      "popular": "POPULAR"
+    },
+    "buttons": {
+      "buyNow": "BUY Now",
+      "contactUs": "contact us"
+    },
+    "isp": {
+      "feedback": "more than 1500 proxies",
+      "advantages": [
+        "1 Gbps channel",
+        "more than 153 subnets",
+        "Anonymous",
+        "unlimited traffic",
+        "24/7 support"
+      ]
+    }
+  },
+  "feedbacks": {
+    "title": "User feedback"
+  },
+  "network": {
+    "title": "Impressive coverage",
+    "residentialTitle": "Residential Proxies",
+    "residentialText": "Get proxies from any corner of the world. Easily filter IP addresses by country, region, city, or provider right in the dashboard.",
+    "button": "Try for $2.5",
+    "addresses": "Addresses",
+    "countries": {
+      "france": "France",
+      "united_kingdom": "United Kingdom",
+      "belgium": "Belgium",
+      "germany": "Germany",
+      "spain": "Spain",
+      "malta": "Malta",
+      "netherlands": "Netherlands",
+      "ukraine": "Ukraine",
+      "sweden": "Sweden",
+      "switzerland": "Switzerland",
+      "poland": "Poland",
+      "italy": "Italy",
+      "canada": "Canada",
+      "usa": "USA",
+      "serbia": "Serbia"
+    }
+  },
+  "superpowers": {
+    "title": "Our superpowers",
+    "slides": [
+      [
+        {
+          "title": "Outstanding Performance",
+          "text": "Our ISP proxies are fast, reliable, and secure, giving you an uninterrupted browsing experience with a solid bandwidth for various use cases."
+        },
+        {
+          "title": "Global Coverage",
+          "text": "Access high-speed proxy service without geo-restrictions from multiple locations worldwide, including North America, Europe, Asia, and more."
+        },
+        {
+          "title": "Easy Integration",
+          "text": "Buy proxy IPs and integrate with your existing workflows using our user-friendly tools and documentation."
+        },
+        {
+          "title": "Multiple Proxy Types",
+          "text": "Buy a proxy choosing from a range of options, including mobile, residential, and datacenter proxies."
+        }
+      ],
+      [
+        {
+          "title": "Global Coverage",
+          "text": "Access high-speed proxy service without geo-restrictions from multiple locations worldwide, including North America, Europe, Asia, and more."
+        },
+        {
+          "title": "Ethically Sourced Residential Proxy Pool",
+          "text": "Our bulk proxies are ethically sourced from verified data centers to ensure reliability and legality."
+        },
+        {
+          "title": "Multiple Proxy Types",
+          "text": "Buy proxies based on your tasks: mobile, residential, datacenter."
+        },
+        {
+          "title": "Affordable Premium Proxies",
+          "text": "Buy proxy server addresses cheap, without compromising on quality or performance."
+        }
+      ],
+      [
+        {
+          "title": "Ethically Sourced Residential Proxy Pool",
+          "text": "Our proxies are ethically sourced, ensuring legal and reliable use."
+        },
+        {
+          "title": "24/7 Customer Support",
+          "text": "Get help any time regarding plans, APIs, IPv6, payment, etc."
+        },
+        {
+          "title": "Affordable Premium Proxies",
+          "text": "Benefit from cheap proxies with great performance."
+        },
+        {
+          "title": "Anonymous Browsing",
+          "text": "Protect your identity and surf the internet anonymously."
+        }
+      ]
+    ]
+  },
+  "start": {
+    "title": "Unleash the power of proxies with Proxyma",
+    "startNow": "START NOW",
+    "contact": "Contact us"
+  },
+  "footer": {
+    "disclaimer1": "All other trademarks and logos used on this website are the property of their respective owners. The use of these trademarks does not imply endorsement, affiliation or sponsorship by PROXYMA Solutions Ltd.",
+    "disclaimer2": "PROXYMA Solutions Ltd. reserves the right to make changes to the website and the content, products, or services described on the website at any time without notice.",
+    "titles": {
+      "residential": "RESIDENTIAL PROXIES",
+      "proxyma": "PROXYMA",
+      "documents": "DOCUMENTS"
+    },
+    "links": {
+      "dynamic": "Dynamic residential proxies",
+      "pricing": "Pricing plan",
+      "help": "Help Center",
+      "login": "Login",
+      "signup": "Sign Up",
+      "terms": "Terms of Use",
+      "privacy": "Privacy Policy",
+      "ethics": "Ethics",
+      "cookie": "Cookie Policy"
+    },
+    "email": "Email:",
+    "copy": "Proxyma. © 2023. All Rights Reserved.",
+    "trademark": "PROXYMA® is a registered trademark of PROXYMA Solutions Ltd."
+  },
+  "about": {
+    "title": "What is a Proxy?",
+    "desc": "A proxy server is an intermediary between a user and the internet resource they are accessing. It functions by forwarding requests from the user to the target server and back, hiding the user`s real IP address. Buying a proxy ensures anonymity and security when working on the Internet. Proxies are widely used for various purposes, such as bypassing geographical restrictions, increasing access speed to resources, and protecting against cyber attacks.",
+    "items": {
+      "anonymity": {
+        "title": "Anonymity",
+        "list": [
+          "Hides the user's real IP address.",
+          "Protects personal data and privacy."
+        ]
+      },
+      "cache": {
+        "title": "Data Caching",
+        "list": [
+          "Stores frequently requested resources.",
+          "Speeds up access to frequently visited sites."
+        ]
+      },
+      "filtering": {
+        "title": "Traffic Filtering",
+        "list": [
+          "Blocks unwanted content.",
+          "Restricts access to certain resources."
+        ]
+      },
+      "blocks": {
+        "title": "Bypassing Blocks",
+        "list": [
+          "Access to blocked sites.",
+          "Avoids censorship and geographical restrictions."
+        ]
+      }
+    },
+    "subtitle": "What are proxies for?",
+    "subtitleDesc": "Proxy servers are worth buying for a wide range of applications in various fields. Let's look at each of them in more detail.",
+    "seo": {
+      "title": "SEO (Search Engine Optimization)",
+      "text": [
+        {
+          "b": "Automating Competitor Analysis:",
+          "p": "Allows automating the process of collecting data about competitors. This includes monitoring their positions in search engines, analyzing keywords used, and content strategies. Using proxies helps avoid blocking by search engines, making competitor analysis more efficient."
+        },
+        {
+          "b": "Data Collection for Improving Site Rankings:",
+          "p": "Renting proxies allows more accurate and large-scale data collection for analyzing search queries, user behavior, and content effectiveness. This helps improve site rankings in search results and attract more targeted traffic."
+        }
+      ]
+    },
+    "marketing": {
+      "title": "Marketing",
+      "text": [
+        {
+          "b": "Tracking Advertising Campaigns:",
+          "p": "Helps marketers track the effectiveness of advertising campaigns, analyze metrics, and adjust strategies in real-time. This is especially useful when managing multiple campaigns across different regions."
+        },
+        {
+          "b": "Analysis of Strategy Effectiveness:",
+          "p": "Using proxies, you can anonymously and securely collect data on user behavior, conversion rates, and other key metrics. This helps identify the strengths and weaknesses of marketing strategies and make necessary adjustments."
+        }
+      ]
+    },
+    "footer": {
+      "title": "Conclusion",
+      "text": "When choosing a proxy, it is important to consider the intended use and types of tasks. For SEO, marketing, and lead generation, it is recommended to buy dynamic proxies, while static proxies are better suited for social networks and traffic arbitration. Renting proxies is a convenient way to ensure security and anonymity on the Internet, which is especially relevant in today`s digital world."
+    }
+  },
+  "pay": {
+    "title": "Fast and secure payment options",
+    "text": "In PROXYMA, we believe that when it comes to buying proxies, our users want a payment process that is fast, secure, and hassle-free. We offer a range of simple and convenient payment options, including credit/debit cards, PayPal, cryptocurrencies, and others. You can learn more about our payment methods and security features by visiting our FAQ page or contacting our support team.",
+    "faqLink": "FAQ page"
+  },
+  "referral": {
+    "title": "Affiliate program <1>Proxyma</1>",
+    "subtitle": "Get exclusive technical support from your",
+    "contentTitle": "Earn with us!",
+    "contentText1": "Join our affiliate program and receive <1>10%</1> of all payments made by customers you refer.",
+    "contentList": {
+      "1": "Test our solutions",
+      "2": "Use ready-made promo materials",
+      "3": "Receive monthly payments"
+    },
+    "contentText2": "Partnering with PROXYMA is an opportunity to earn money for content creators, digital business owners, Discord users, SEO specialists, bloggers, and many others. Join now and <1>start earning</1>!",
+    "steps": {
+      "1": {
+        "title": "Sign up",
+        "text": "Create an account, activate the affiliate program and get your unique referral link."
+      },
+      "2": {
+        "title": "Attract customers",
+        "text": "Get your referral link in your account and share it with your audience on your website or social networks."
+      },
+      "3": {
+        "title": "Get rewards",
+        "text": "Start receiving rewards - 10% immediately after the first deposit from the user you attracted."
+      }
+    },
+    "button": "Learn more ›"
+  },
+  "buyOffer": {
+    "title": "Buy proxy servers from PROXYMA",
+    "subtitle": "PROXYMA offers high-quality proxy servers for your business. Our servers provide fast access to IP addresses, allowing quick switching to HTTPS.",
+    "advantagesTitle": "Advantages of PROXYMA proxy servers",
+    "advantages": {
+      "1": "Reliable IP address protection for your client",
+      "2": "Identify cheap proxy server",
+      "3": "Windows support"
+    },
+    "bottomTitle": "What are proxy servers used for?",
+    "bottomText": "Proxy servers are used to protect and manage IPs, providing secure connections and access to data."
+  },
+  "dynamicHero": {
+    "breadcrumbs": {
+      "main": "Proxyma",
+      "current": "Dynamic residential proxies"
+    },
+    "title": "Dynamic <1>resident proxies</1>",
+    "list": {
+      "1": "Quality proxies with the simplest integration into your API at 2 times cheaper than the market.",
+      "2": "Start without binding a payment system - from $1 for 250MB"
+    },
+    "tryNow": "Try now for $2.5",
+    "promo": {
+      "label": "500MB of stability for $2.5",
+      "title": "Register in <1>2 clicks</1> and get <1>500MB of proxies</1>",
+      "button": "Get 500MB"
+    }
+  },
+  "dynamicAbout": {
+    "title": "Proxyma - reliable provider of uninterrupted surfing",
+    "list": {
+      "1": {
+        "bold": "Bypassing many anti-fraud systems",
+        "text": "each proxy belongs to a real person with his consent"
+      },
+      "2": {
+        "bold": "High bandwidth",
+        "text": "generate proxies in large quantities and process large data flows"
+      },
+      "3": {
+        "text": "To start, you do not need to bind a wallet, payment in cryptocurrency"
+      },
+      "4": {
+        "bold": "More than 50 million IP",
+        "text": "average online - 9 million"
+      }
+    }
+  },
+  "dynamicAdvantages": {
+    "title": "Superpowers",
+    "list": {
+      "1": "Our proxies are generated in one action in large quantities and withstand very large traffic flows.",
+      "2": "A simple algorithm for purchasing proxies in 2 clicks without binding sensitive personal data: pay manually, then automatic renewal.",
+      "3": "We bypass many anti-fraud systems. Real people from personal devices voluntarily connect to our system, providing us with IP."
+    }
+  },
+  "integration": {
+    "title": "Easy integration after purchase",
+    "text1": "Copy or export proxies and paste them into your software without extra actions.",
+    "text2": {
+      "before": "This is our",
+      "highlight": "CTRL+C CTRL+V philosophy"
+    }
+  },
+  "ispHero": {
+    "breadcrumbs": {
+      "home": "Proxyma",
+      "current": "ISP proxies – an alternative to residential proxies"
+    },
+    "title": {
+      "main": "ISP",
+      "small": "proxies – alternative residential proxies"
+    },
+    "subtitle": "Experience unmatched reliability and speed with our dedicated ISP proxies featuring premium ASNs. Enjoy datacenter speed combined with residential proxy stability, while keeping your IPs for a lifetime.",
+    "button": "Buy now"
+  },
+  "parsingHero": {
+    "breadcrumbs": {
+      "home": "Proxyma",
+      "current": "Data parsing резидентские прокси"
+    },
+    "title": {
+      "main": "Data parsing прокси, которые не отвалятся на",
+      "highlight": "50% работы с большими объемами данных"
+    },
+    "list": {
+      "item1": "Более 60 000 000 Динамических IP онлайн с периодом ротации",
+      "item2": "Поддержка 24/7",
+      "item3": "IP не меняется в процессе работы"
+    },
+    "buttonMain": "Попробуйте сейчас за $2.5",
+    "promo": {
+      "label": "500MB стабильности за $2.5",
+      "title": "Зарегистрируйтесь в <span>2 клика</span> и получите <span>500MB прокси</span>",
+      "button": "Получить 500MB"
+    }
+  },
+  "parsingAdvantages": {
+    "title": "Data parsing proxies that solve business tasks",
+    "items": [
+      {
+        "title": "Know everything about competitors",
+        "text": "Learn about all your competitors' new products to build your own unique sales offer."
+      },
+      {
+        "title": "Test new hypotheses",
+        "text": "Study promotions, assortment, and offers of competitors to test new hypotheses while keeping up with trends in your niche."
+      },
+      {
+        "title": "Analyze advertising activity",
+        "text": "Analyze ads, semantics, and SEO of competitors to identify growth points and free directions for development."
+      },
+      {
+        "title": "Be the fastest",
+        "text": "Optimize website speed based on real data for specific GEOs, increase conversion rates, and get more sales."
+      },
+      {
+        "title": "Every touchpoint under a microscope",
+        "text": "Collect data from any platform — from websites to social networks. Find influencers for advertising and collect brand statistics based on customer reviews."
+      }
+    ]
+  },
+  "parsingSecondAdvantages": {
+    "title": "Stable parsing anonymously in any GEO",
+    "items": [
+      {
+        "title": "99.5% data collection stability",
+        "text": "Collect data without unexpected failures, and if it happens — we replace the proxy within 10 minutes"
+      },
+      {
+        "title": "Large volumes are not a problem for multithreaded proxies",
+        "text": "Multithreaded proxies allow processing large amounts of data without extra costs or reconnections"
+      },
+      {
+        "title": "Only relevant active proxies for your GEO",
+        "text": "We monitor the relevance and stability of each GEO in any of the 190+ countries"
+      }
+    ]
+  }
 }
