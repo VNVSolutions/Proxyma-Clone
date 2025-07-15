@@ -1,0 +1,34 @@
+.integration-section{
+    padding: 30px 0;
+}
+
+.integration-container{
+    border-radius: 36px;
+    background-color: #e0f5ff;
+
+    padding: 50px 0 50px 270px;
+    background-image: url(../../../public/img/integrationBg-1.png), url(../../../public/img/integrationBg-2.png);
+    background-size: 300px, cover;
+    background-position: 0 50%;
+    background-repeat: no-repeat;
+}
+
+.integration__title {
+    margin-bottom: 5px;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.integration__text {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.integration__text:not(:last-child) {
+    margin-bottom: 5px;
+}
+
+.integration__text span {
+    font-weight: 700;
+    color: #fe3059;
+}

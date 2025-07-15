@@ -19,6 +19,14 @@
 @import url('components/pay/pay.css');
 @import url('components/refferal/refferal.css');
 @import url('components/buyOffer/buyOffer.css');
+@import url('components/dynamicHero/dynamicHero.css');
+@import url('components/dynamicAbout/dynamicAbout.css');
+@import url('components/dynamicAdvantages/dynamicAdvantages.css');
+@import url('components/integration/integration.css');
+@import url('components/ispHero/ispHero.css');
+@import url('components/parsingHero/parsingHero.css');
+@import url('components/parsingAdvantages/parsingAdvantages.css');
+@import url('components/parsingSecondAdvantages/parsingSecondAdvantages.css');
 
 
 body{
@@ -32,4 +40,16 @@ body{
 
 .buyNowPage{
     padding-top: 150px;
+}
+
+
+.hero__title {
+    margin-bottom: 14px;
+    max-width: 550px;
+    text-transform: uppercase;
+    font-family: Jost, sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: #000;
+
 }

@@ -1,0 +1,19 @@
+.IspHero-section{
+    padding: 0;
+    background-image: url(../../../public/img/hero-bg-shadow-0QwPPoe8.svg);
+    background-size: 500px;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
+
+.IspHero-container{
+    background-image: url(../../../public/img/isp-hero.png);
+    background-size: 55%;
+    background-position: 94% 55%;
+    padding: 220px 15px 90px;
+    background-repeat: no-repeat;
+}
+
+.IspHero-container .hero__button{
+    text-align: center;
+}
