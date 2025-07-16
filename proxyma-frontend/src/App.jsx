@@ -8,6 +8,8 @@ import Isp from "./pages/solutions/Isp.jsx";
 import DataParsing from "./pages/solutions/DataParsing.jsx";
 import Ecommerce from "./pages/solutions/Ecommerce.jsx";
 import Crypto from "./pages/solutions/Crypto.jsx";
+import Help from "./pages/resources/Help.jsx";
+import PartnersInfo from "./pages/resources/PartnersInfo.jsx";
 
 function App() {
 
@@ -23,6 +25,8 @@ function App() {
                     <Route path="/solutions/data-parsing" element={<DataParsing />} />
                     <Route path="/solutions/ecommerce" element={<Ecommerce />} />
                     <Route path="/solutions/crypto" element={<Crypto />} />
+                    <Route path="/resources/help" element={<Help />} />
+                    <Route path="/resources/partners" element={<PartnersInfo />} />
                 </Route>
             </Routes>
         </BrowserRouter>

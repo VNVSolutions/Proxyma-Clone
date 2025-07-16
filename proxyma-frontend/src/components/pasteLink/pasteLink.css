@@ -1,0 +1,62 @@
+.paste-link{
+    padding: 70px 0;
+    text-align: center;
+
+    margin: 0 30px;
+
+    border-radius: 36px;
+    background-color: #e0f5ff;
+}
+
+.paste-link__title{
+    text-align: center;
+    font-family: Jost, sans-serif;
+    font-weight: 700;
+    font-size: 34px;
+    color: #000;
+
+    margin-bottom: 30px;
+}
+
+.paste-link__content{
+    padding: 70px 0;
+    text-align: center;
+}
+
+.paste-link__copy{
+    position: relative;
+    margin-bottom: 30px;
+    padding: 20px 45px;
+    border-radius: 9px;
+    border: 1px dashed #097bf8;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 18px;
+    color: #097bf8;
+    background: transparent;
+    cursor: pointer;
+}
+
+.paste-link__copy:after {
+    content: attr(data-clipboard-text);
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    padding: 5px 10px;
+    -webkit-transform: translateX(-50%);
+    transform: translate(-50%);
+    font-size: 16px;
+    color: #097bf8;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: opacity .3s ease, visibility .3s ease;
+    transition: opacity .3s ease, visibility .3s ease;
+}
+
+.paste-link__text{
+    font-size: 24px;
+}
+
+.paste-link__text p:not(:last-child) {
+    margin-bottom: 5px;
+}
