@@ -1,0 +1,30 @@
+.cryptoHero-section{
+    padding: 0;
+    background-image: url(../../../public/img/hero-bg-shadow-0QwPPoe8.svg);
+    background-size: 500px;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
+
+.cryptoHero-container{
+    display: flex
+;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+
+    padding: 220px 15px 90px;
+    background-image: url(../../../public/img/heroCrypto.png);
+    background-size: 620px;
+    background-position: 94% 80%;
+    background-repeat: no-repeat;
+}
+
+.cryptoHero-section .hero__item{
+    width: 300px;
+}
+
+.cryptoHero-container .hero__button{
+    text-align: center;
+}

@@ -12,6 +12,7 @@ function Header() {
     const [isScrolled, setIsScrolled] = useState(false);
     const [open, setOpen] = useState(false);
     const [openSubmenu, setOpenSubmenu] = useState(false);
+    const [openResourcesSubmenu, setOpenResourcesSubmenu] = useState(false);
 
     const normalizeLang = (lang) => (lang.startsWith("ru") ? "ru" : "en");
     const [currentLang, setCurrentLang] = useState(normalizeLang(i18n.language));
@@ -59,7 +60,10 @@ function Header() {
                 </li>
                 <li
                     className="menuItem submenuWrapper"
-                    onClick={() => setOpenSubmenu((prev) => !prev)}
+                    onClick={() => {
+                        setOpenSubmenu((prev) => !prev);
+                        setOpenResourcesSubmenu(false); // закриває інше підменю
+                    }}
                 >
     <span className="menuLinkWithArrow">
       {t('menuLink2')} ▾
@@ -86,7 +90,28 @@ function Header() {
                     )}
                 </li>
 
-                <li className="menuItem">{t('menuLink3')}</li>
+                <li
+                    className="menuItem submenuWrapper"
+                    onClick={() => {
+                        setOpenResourcesSubmenu((prev) => !prev);
+                        setOpenSubmenu(false); // закриває інше підменю
+                    }}
+                >
+    <span className="menuLinkWithArrow">
+      {t('menuLink3')} ▾
+    </span>
+
+                    {openResourcesSubmenu && (
+                        <ul className="submenu">
+                            <li className="submenuItem"><NavLink
+                                to="/resources/help">{t("resourcesSubmenu.help")}</NavLink></li>
+                            <li className="submenuItem"><NavLink
+                                to="/resources/partners">{t("resourcesSubmenu.partners")}</NavLink></li>
+                            <li className="submenuItem"><NavLink
+                                to="/resources/api">{t("resourcesSubmenu.api")}</NavLink></li>
+                        </ul>
+                    )}
+                </li>
                 <li className="menuItem">{t('menuLink4')}</li>
                 <li className="menuItem">{t('menuLink5')}</li>
             </ul>
