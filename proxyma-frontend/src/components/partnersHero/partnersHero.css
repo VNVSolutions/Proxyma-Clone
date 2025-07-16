@@ -1,0 +1,28 @@
+.partnersHero{
+    background-image: url(../../../public/img/heroPartners.png), url(../../../public/img/hero-bg-shadow-0QwPPoe8.svg);
+    background-size: 590px auto;
+    background-position: calc(100vw - ((100vw - 100px) / 2)) 50%, 0 0;
+
+    padding: 230px 0 170px;
+    background-repeat: no-repeat;
+}
+
+.partnersHero__content{
+    max-width: 500px;
+    width: 100%;
+}
+
+.hero__subtitle p:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.hero__subtitle a {
+    color: #097bf8;
+}
+
+.partnersHero .hero__title{
+    margin-bottom: 50px;
+    font-family: Jost, sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+}

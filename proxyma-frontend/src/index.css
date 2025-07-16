@@ -32,6 +32,12 @@
 @import url('components/cryptoHero/cryptoHero.css');
 @import url('components/cryptoAdvantages/cryptoAdvantages.css');
 @import url('components/cryptoSecondAdvantages/cryptoSecondAdvantages.css');
+@import url('pages/resources/help.css');
+@import url('components/utils/faqAccordion/faqAccordion.css');
+@import url('components/partnersHero/partnersHero.css');
+@import url('components/changeLink/changeLink.css');
+@import url('components/info/info.css');
+@import url('components/pasteLink/pasteLink.css');
 
 
 body{
@@ -58,3 +64,4 @@ body{
     color: #000;
 
 }
+

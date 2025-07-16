@@ -1,0 +1,26 @@
+.faq{
+    padding: 90px 0 120px;
+    background-color: #f3f7fa;
+    padding-top: 190px;
+}
+
+.faq__title{
+    text-align: center;
+    font-family: Jost, sans-serif;
+    font-weight: 700;
+    font-size: 34px;
+    color: #000;
+
+    margin-bottom: 5px;
+}
+
+.faq__subtitle{
+    text-align: center;
+    font-size: 23px;
+    color: #838383;
+    margin-bottom: 50px;
+}
+
+.faq .breads-wrapper{
+    text-align: center;
+}
