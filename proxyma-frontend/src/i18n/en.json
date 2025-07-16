@@ -11,6 +11,11 @@
     "ecommerce": "Residential e-commerce proxies",
     "crypto": "Residential proxies for crypto"
   },
+  "resourcesSubmenu": {
+    "help": "Help center",
+    "partners": "Partners Program",
+    "api": "API Documentation"
+  },
   "header":{
     "logIn": "Sign In",
     "signUp": "Sign Up"
@@ -484,5 +489,86 @@
         "text": "We monitor the relevance and stability of each GEO in any of the 190+ countries"
       }
     ]
+  },
+  "ecommerceHero": {
+    "breadcrumbs": {
+      "home": "Proxyma",
+      "current": "Ecommerce residential proxies"
+    },
+    "title": {
+      "main": "Ecommerce proxies protected from bans",
+      "highlight": "on the most popular platforms"
+    },
+    "list": {
+      "item1": "More than 60,000,000 <br/> Dynamic IPs online with rotation period",
+      "item2": "24/7 support",
+      "item3": "IP does not change during work"
+    },
+    "buttonMain": "Try now for $2.5",
+    "promo": {
+      "label": "500MB of stability for $2.5",
+      "title": "Register in&nbsp;<span>2 clicks</span> and&nbsp;get <span>500MB of proxies</span>",
+      "button": "Get 500MB"
+    }
+  },
+  "ecommerceAdvantages": {
+    "title": "E-commerce proxies solving business tasks",
+    "items": [
+      {
+        "icon": "https://proxyma.io/images/pages/layout/product/advantages-dataparsing/advantages-9.png",
+        "title": "Scale your business",
+        "text": "For stable business scaling, it's important to know every detail. Reliable proxies help monitor markets, collect user opinions about your brand, and stay on top of trends."
+      },
+      {
+        "icon": "https://proxyma.io/images/pages/layout/product/advantages-dataparsing/advantages-10.png",
+        "title": "Set competitive prices",
+        "text": "Monitor competitor prices in specific regions or on specific devices in real-time. Collect complete information about discounts and promotions to stay ahead."
+      },
+      {
+        "icon": "https://proxyma.io/images/pages/layout/product/advantages-dataparsing/advantages-11.png",
+        "title": "Know what your audience needs",
+        "text": "Study markets and competitors to stay updated on trending products and understand the required stock volumes based on real data. Receive structured data for each GEO."
+      }
+    ]
+  },
+  "cryptoHero": {
+    "breadcrumbs": {
+      "home": "Proxyma",
+      "current": "Crypto residential proxies"
+    },
+    "title": {
+      "main": "Stable proxies for drops purchasing",
+      "highlight": "on exchanges with high anti-fraud protection"
+    },
+    "list": {
+      "item1": "60+ million IP addresses",
+      "item2": "24/7 support",
+      "item3": "180+ countries"
+    },
+    "button": "Try now for $2.5"
+  },
+  "cryptoAdvantages": {
+    "title": "Optimize expenses for accounts",
+    "items": {
+      "item1": "The most affordable solution for earning on token distributions and early drops",
+      "item2": "Fair usage policy with unlimited IPs — no extra fees",
+      "item3": "Wide pool of IP addresses to reach your targets from the USA, Europe, and Asia"
+    }
+  },
+  "cryptoSecondAdvantages": {
+    "items": {
+      "item1": {
+        "title": "Bypass antifraud with real IPs",
+        "text": "Antifraud systems are loyal to our proxies thanks to real IPs from real people"
+      },
+      "item2": {
+        "title": "No integration issues",
+        "text": "Don’t waste time on technical questions – just copy and paste our proxies into any popular software"
+      },
+      "item3": {
+        "title": "Clean static proxies for secure data collection",
+        "text": "Static proxies that no one used before you"
+      }
+    }
   }
 }

@@ -27,6 +27,11 @@
 @import url('components/parsingHero/parsingHero.css');
 @import url('components/parsingAdvantages/parsingAdvantages.css');
 @import url('components/parsingSecondAdvantages/parsingSecondAdvantages.css');
+@import url('components/ecommerceHero/ecommerceHero.css');
+@import url('components/ecommerceAdvantages/ecommerceAdvantages.css');
+@import url('components/cryptoHero/cryptoHero.css');
+@import url('components/cryptoAdvantages/cryptoAdvantages.css');
+@import url('components/cryptoSecondAdvantages/cryptoSecondAdvantages.css');
 
 
 body{
