@@ -112,7 +112,7 @@ function Header() {
                         </ul>
                     )}
                 </li>
-                <li className="menuItem">{t('menuLink4')}</li>
+                {/*<li className="menuItem">{t('menuLink4')}</li>*/}
                 <li className="menuItem">{t('menuLink5')}</li>
             </ul>
 

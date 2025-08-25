@@ -10,12 +10,15 @@ import Ecommerce from "./pages/solutions/Ecommerce.jsx";
 import Crypto from "./pages/solutions/Crypto.jsx";
 import Help from "./pages/resources/Help.jsx";
 import PartnersInfo from "./pages/resources/PartnersInfo.jsx";
+import ScrollToTop from "./components/utils/ScrollToTop/ScrollToTop.jsx";
+import NotFound from "./pages/notFound/NotFound.jsx";
 
 function App() {
 
   return (
     <>
         <BrowserRouter>
+            <ScrollToTop />
             <Routes>
                 <Route path="/" element={<Layout />}>
                     <Route index element={<Home />} />
@@ -27,6 +30,8 @@ function App() {
                     <Route path="/solutions/crypto" element={<Crypto />} />
                     <Route path="/resources/help" element={<Help />} />
                     <Route path="/resources/partners" element={<PartnersInfo />} />
+
+                    <Route path="*" element={<NotFound />} />
                 </Route>
             </Routes>
         </BrowserRouter>
