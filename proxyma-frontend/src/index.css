@@ -42,6 +42,12 @@
 @import url('components/discount/discount.css');
 @import url('components/referalProgram/referalProgram.css');
 @import url('components/managerContacts/managerContacts.css');
+@import url('components/PartnersPageHero/partnersPageHero.css');
+@import url('components/OurPartners/ourPartners.css');
+@import url('components/partnersAgitation/partnersAgitation.css');
+@import url('pages/login/login.css');
+@import url('pages/registration/registration.css');
+@import url('components/utils/Layout/layout.css');
 
 
 body{

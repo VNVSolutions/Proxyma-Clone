@@ -1,0 +1,82 @@
+.partnersAgitation-section{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.partnersAgitations-container{
+
+}
+
+.bnr-h {
+    margin-bottom: 80px;
+}
+
+.bnr-title{
+    text-align: center;
+    font-family: Jost, sans-serif;
+    font-weight: 700;
+    font-size: 34px;
+    color: #000;
+}
+
+.bnt-subtitle{
+    text-align: center;
+    font-size: 23px;
+    color: #838383;
+}
+
+.bnr-grid{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.bnr-item{
+    border-radius: 30px;
+    padding: 40px 45px;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 15px;
+    min-height: 260px;
+    max-width: 750px;
+
+    background: #f3f7fa url('../../../public/img/agitation.png') no-repeat;
+    background-size: contain;
+    background-position: right bottom;
+}
+
+.bnr-item-title{
+    font-weight: 600;
+    font-size: 33px;
+    color: #38313f;
+
+    max-width: 55%;
+}
+
+.bnr-item-text{
+    font-weight: 500;
+    font-size: 19px;
+    color: #9f9db3;
+
+    max-width: 55%;
+}
+
+.button-accent{
+    text-align: center;
+}
