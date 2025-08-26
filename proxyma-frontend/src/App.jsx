@@ -10,12 +10,19 @@ import Ecommerce from "./pages/solutions/Ecommerce.jsx";
 import Crypto from "./pages/solutions/Crypto.jsx";
 import Help from "./pages/resources/Help.jsx";
 import PartnersInfo from "./pages/resources/PartnersInfo.jsx";
+import ScrollToTop from "./components/utils/ScrollToTop/ScrollToTop.jsx";
+import NotFound from "./pages/notFound/NotFound.jsx";
+import Partners from "./pages/partners/Partners.jsx";
+import Login from "./pages/login/Login.jsx";
+import AuthLayout from "./components/utils/Layout/AuthLayout.jsx";
+import Registration from "./pages/registration/Registration.jsx";
 
 function App() {
 
   return (
     <>
         <BrowserRouter>
+            <ScrollToTop />
             <Routes>
                 <Route path="/" element={<Layout />}>
                     <Route index element={<Home />} />
@@ -27,7 +34,17 @@ function App() {
                     <Route path="/solutions/crypto" element={<Crypto />} />
                     <Route path="/resources/help" element={<Help />} />
                     <Route path="/resources/partners" element={<PartnersInfo />} />
+                    <Route path="/partners" element={<Partners />} />
+
+                    <Route path="*" element={<NotFound />} />
                 </Route>
+
+                {/* Auth layout БЕЗ Header/Footer */}
+                <Route element={<AuthLayout />}>
+                    <Route path="/login" element={<Login />} />
+                    <Route path="/registration" element={<Registration />} />
+                </Route>
+
             </Routes>
         </BrowserRouter>
     </>

@@ -112,8 +112,8 @@ function Header() {
                         </ul>
                     )}
                 </li>
-                <li className="menuItem">{t('menuLink4')}</li>
-                <li className="menuItem">{t('menuLink5')}</li>
+                {/*<li className="menuItem">{t('menuLink4')}</li>*/}
+                <li className="menuItem"><NavLink to={'/partners'} >{t('menuLink5')}</NavLink> </li>
             </ul>
 
             <div className="right-header-box">

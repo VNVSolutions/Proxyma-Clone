@@ -1,0 +1,85 @@
+.referalProgram-section{
+    padding: 70px 0;
+
+    border-radius: 36px;
+    margin: 0 70px;
+    background-color: #e0f5ff;
+}
+
+.referalProgram-container{
+
+}
+
+.referral-program__title{
+    margin-bottom: 30px;
+
+    text-align: center;
+    font-family: Jost, sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #000;
+}
+
+.referral-program__desc{
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.referral-program__list{
+    margin-bottom: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.referral-program__item{
+    padding: 45px 40px 10px;
+    border-radius: 36px;
+    border: 1px solid #097bf8;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    max-width: 300px;
+    width: 100%;
+    height: 250px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.referral-program__item-number{
+    margin-bottom: 20px;
+    font-family: Jost, sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    color: #097bf8;
+}
+
+.referral-program__item-text{
+    font-size: 16px;
+}
+
+.referral-program__item-text a {
+    color: #097bf8;
+}
+
+.referral-program__arrow svg {
+    width: 100%;
+    min-width: 30px;
+}
+
+.referral-program__text{
+    text-align: center;
+    font-size: 18px;
+}
+
+.referral-program__text p:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.referral-program__text a {
+    color: #097bf8;
+}

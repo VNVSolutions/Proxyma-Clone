@@ -1,0 +1,33 @@
+.auth-back {
+    position: absolute;
+    top: 0;
+    left: 10px;
+    border: none;
+    background: transparent;
+    font-size: 30px;
+    line-height: 1;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 10px;
+
+    transition: all ease-in-out 1s;
+}
+.auth-back:hover { background: rgba(0,0,0,0.06); }
+
+.header-content{
+    display: flex;
+    justify-content: space-between;
+
+    flex-direction: row;
+    align-items: center;
+}
+
+.auth-page{
+    padding-bottom: 90px;
+    min-height: 100vh;
+    background-color: #f3f7fa;
+    background-image: url('../../../../public/img/auth-bg-1.svg'), url('../../../../public/img/auth-bg-2.svg'), url('../../../../public/img/auth-bg-3.svg');
+    background-size: auto 100%, 300px, 300px;
+    background-position: 100% 50%, 0 25%, 28% 80%;
+    background-repeat: no-repeat;
+}
