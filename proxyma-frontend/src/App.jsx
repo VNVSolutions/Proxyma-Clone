@@ -16,6 +16,7 @@ import Partners from "./pages/partners/Partners.jsx";
 import Login from "./pages/login/Login.jsx";
 import AuthLayout from "./components/utils/Layout/AuthLayout.jsx";
 import Registration from "./pages/registration/Registration.jsx";
+import ForgotPassword from "./pages/forgotPassword/ForgotPassword.jsx";
 
 function App() {
 
@@ -43,6 +44,7 @@ function App() {
                 <Route element={<AuthLayout />}>
                     <Route path="/login" element={<Login />} />
                     <Route path="/registration" element={<Registration />} />
+                    <Route path="/forgot-password" element={<ForgotPassword />} />
                 </Route>
 
             </Routes>

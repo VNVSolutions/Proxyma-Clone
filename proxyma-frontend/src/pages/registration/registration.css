@@ -1,0 +1,28 @@
+.terms-label{
+    display: flex
+;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    color: #525b6e;
+}
+
+._wrapper_1gepk_1{
+    position: relative;
+}
+
+_checkbox_1gepk_5{
+
+}
+
+._checkmark_1gepk_10{
+
+}
+
+._terms-link_5geoh_20{
+    color: #fe3059;
+}
+
+._terms-link_5geoh_20:hover{
+    text-decoration: underline;
+}
