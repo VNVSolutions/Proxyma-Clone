@@ -17,6 +17,8 @@ import Login from "./pages/login/Login.jsx";
 import AuthLayout from "./components/utils/Layout/AuthLayout.jsx";
 import Registration from "./pages/registration/Registration.jsx";
 import ForgotPassword from "./pages/forgotPassword/ForgotPassword.jsx";
+import CabinetLayout from "./components/utils/Layout/CabinetLayout.jsx";
+import CabinetProfile from "./pages/Cabinet/Profile/CabinetProfile.jsx";
 
 function App() {
 
@@ -45,6 +47,11 @@ function App() {
                     <Route path="/login" element={<Login />} />
                     <Route path="/registration" element={<Registration />} />
                     <Route path="/forgot-password" element={<ForgotPassword />} />
+                </Route>
+
+
+                <Route element={<CabinetLayout />}>
+                    <Route path="/cabinet/profile" element={<CabinetProfile/>} />
                 </Route>
 
             </Routes>
