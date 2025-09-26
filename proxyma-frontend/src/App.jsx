@@ -19,6 +19,8 @@ import Registration from "./pages/registration/Registration.jsx";
 import ForgotPassword from "./pages/forgotPassword/ForgotPassword.jsx";
 import CabinetLayout from "./components/utils/Layout/CabinetLayout.jsx";
 import CabinetProfile from "./pages/Cabinet/Profile/CabinetProfile.jsx";
+import CabinetDynamic from "./pages/Cabinet/Dynamic/CabinetDynamic.jsx";
+import CabinetBalance from "./pages/Cabinet/Balance/CabinetBalance.jsx";
 
 function App() {
 
@@ -52,6 +54,8 @@ function App() {
 
                 <Route element={<CabinetLayout />}>
                     <Route path="/cabinet/profile" element={<CabinetProfile/>} />
+                    <Route path="/cabinet/dynamic" element={<CabinetDynamic/>} />
+                    <Route path="/cabinet/balance" element={<CabinetBalance/>} />
                 </Route>
 
             </Routes>

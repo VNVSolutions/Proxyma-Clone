@@ -49,6 +49,8 @@
 @import url('pages/registration/registration.css');
 @import url('components/utils/Layout/layout.css');
 
+@import url('pages/Cabinet/Dynamic/cabinetDynamic.css');
+@import url('pages/Cabinet/Balance/cabinetBalance.css');
 
 body{
     font-family: Circe, sans-serif;
@@ -73,5 +75,11 @@ body{
     font-weight: 700;
     color: #000;
 
+}
+
+
+.submenuCabinet-open-item a.active {
+    color: #fe3059; /* підсвічує активний */
+    font-weight: 600;
 }
 
